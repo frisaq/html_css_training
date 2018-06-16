@@ -2,10 +2,20 @@
 .description {
 	max-width: 705px; 
 	color: red;
+	margin: 10px;
+}
+.title {
+	max-width: 1100px;
+	margin: 10px;
+	background-color: #33BEBE;
+	
+
+
 }
 
 .screenshot {
 	max-width: 460px;
+	margin: 10px;
 }
 
 * {
@@ -19,8 +29,10 @@
 } 
 
 .app {
+    display: -webkit-flex;
     display: flex;
 }
+
 /*
 Comments are only to help PEOPLE read a code file. The
 computer ignores them.
